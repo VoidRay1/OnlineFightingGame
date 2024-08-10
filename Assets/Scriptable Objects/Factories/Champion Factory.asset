@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a90ff98ed6cbba34fb362ede4f540ccd, type: 3}
+  m_Name: Champion Factory
+  m_EditorClassIdentifier: 
+  _trainingSwatChampion: {fileID: 5416986490623246680, guid: 295c8e245ea437d4e9ab53f450c42af2, type: 3}
+  _onlineSwatChampion: {fileID: 5416986490623246680, guid: d848495b043a65e44bcc62ac9f9fb20c, type: 3}

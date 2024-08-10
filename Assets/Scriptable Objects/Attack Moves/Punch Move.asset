@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443cc7cd8ad6adc42955632ab533dfa9, type: 3}
+  m_Name: Punch Move
+  m_EditorClassIdentifier: 
+  _name: Punch
+  _moveProperties: {fileID: 11400000, guid: 8ccb72f291975a84fb18ad837d56ac9e, type: 2}
+  _frameData: {fileID: 11400000, guid: 28bae88f93137fa419b1cd0f721783dc, type: 2}
+  _hitBoxData: {fileID: 11400000, guid: 9fe20ad42845f064fabe9cffe72b3bc4, type: 2}
+  _attackType: 0

@@ -1,0 +1,27 @@
+#Applied-Damage-Slider #unity-tracker {
+    justify-content: center;
+    height: 20px;
+    display: flex;
+    visibility: visible;
+    background-color: rgba(255, 0, 0, 255);
+    width: 100%;
+    align-items: stretch;
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#Applied-Damage-Slider #unity-dragger {
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 0;
+    width: 10px;
+    height: 10px;
+    visibility: hidden;
+    overflow: visible;
+}

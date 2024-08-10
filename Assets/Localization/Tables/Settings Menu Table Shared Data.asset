@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Settings Menu Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Settings Menu Table
+  m_TableCollectionNameGuidString: 95b180a61d21bac47b8c365d48a3bf16
+  m_Entries:
+  - m_Id: 28332273664
+    m_Key: Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218460073984
+    m_Key: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 861342019584
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 940102660096
+    m_Key: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1114673786880
+    m_Key: Full screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1348137136128
+    m_Key: Vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1585476022272
+    m_Key: Framerate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2190789586944
+    m_Key: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5549886025728
+    m_Key: Apply settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6213076791296
+    m_Key: Discard changes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376718904537088
+    m_Key: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376788857139200
+    m_Key: Discard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376914371686400
+    m_Key: Save settings changes?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704998681620480
+    m_Key: Quality preset
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7869581085249372162
+  references:
+    version: 2
+    RefIds:
+    - rid: 7869581085249372162
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1707939764838

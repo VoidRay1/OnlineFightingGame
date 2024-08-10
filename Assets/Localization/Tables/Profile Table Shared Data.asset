@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Profile Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Profile Table
+  m_TableCollectionNameGuidString: 6bcaf66255c5aed41b27284deb98155e
+  m_Entries:
+  - m_Id: 7327199232
+    m_Key: Friend format name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40434101137408
+    m_Key: Enter your name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78636467892224
+    m_Key: Add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79445641408512
+    m_Key: Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79548322164736
+    m_Key: Friends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79640315834368
+    m_Key: Friends requests
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80588283064320
+    m_Key: Blocked players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80721229918208
+    m_Key: Add friend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81140270247936
+    m_Key: Avatars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106781078204416
+    m_Key: Set avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106992307548160
+    m_Key: Delete avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107557812973568
+    m_Key: Unblock player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107814911225856
+    m_Key: Accept friend request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107948529168384
+    m_Key: Decline friend request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108198757150720
+    m_Key: Block player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170943258669056
+    m_Key: Remove friend
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7869581127717486593
+  references:
+    version: 2
+    RefIds:
+    - rid: 7869581127717486593
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1708089502063

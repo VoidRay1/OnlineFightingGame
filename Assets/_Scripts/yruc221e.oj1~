@@ -1,0 +1,64 @@
+using AnotherFileBrowser.Windows;
+using UnityEngine.Networking;
+using UnityEngine;
+using System.Collections;
+
+public class FileBrowserInvoker : MonoBehaviour 
+{
+    [SerializeField] private PlayerProfileView _playerProfileView;
+    private readonly FileBrowser _fileBrowser = new FileBrowser();
+    private readonly CustomAvatarSaver _customAvatarSaver = new CustomAvatarSaver();
+    private Canvas _canvas;
+    private PopupMessageProvider PopupMessageProvider => GameContext.Instance.PopupMessageProvider;
+
+    public void Initialize(Canvas globalCanvas)
+    {
+        _canvas = globalCanvas;
+        SubscribeOnEvents();
+    }
+
+    private void OpenFileBrowser()
+    {
+        var browserProperties = new BrowserProperties();
+        browserProperties.filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
+        browserProperties.filterIndex = 0;
+        browserProperties.title = "Select Avatar";
+        _fileBrowser.OpenFileBrowser(browserProperties, FileSelected);
+    }
+
+    private void FileSelected(string filePath)
+    {
+        StartCoroutine(FileSelectedCoroutine(filePath));
+    }
+
+    private IEnumerator FileSelectedCoroutine(string filePath)
+    {
+        using (UnityWebRequest uwr = UnityWebRequestTexture.GetTexture(filePath))
+        {
+            yield return uwr.SendWebRequest();
+            if (uwr.result == UnityWebRequest.Result.ConnectionError || uwr.result == UnityWebRequest.Result.ProtocolError)
+            {
+                PopupMessageProvider.ShowErrorPopupMessage("An error occurred while importing a file", _canvas.transform);
+            }
+            else
+            {
+                var texture = DownloadHandlerTexture.GetContent(uwr);
+                _customAvatarSaver.Save("C://", texture);
+                _playerProfileView.SetAvatar(texture);
+                PopupMessageProvider.ShowNeutralMessage("Avatar successfully set to profile", _canvas.transform);
+            }
+        }
+    }
+
+    private void SubscribeOnEvents()
+    {
+        _playerProfileView.OnUploadCustomAvatar += OpenFileBrowser;
+        _playerProfileView.OnPlayerProfileDestroyed += UnSubscribeOnEvents;
+    }
+
+    private void UnSubscribeOnEvents()
+    {
+        _playerProfileView.OnUploadCustomAvatar -= OpenFileBrowser;
+        _playerProfileView.OnPlayerProfileDestroyed -= UnSubscribeOnEvents;
+    }
+}

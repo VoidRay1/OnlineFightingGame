@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Profile Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 6bcaf66255c5aed41b27284deb98155e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7327199232
+    m_Localized: Enter the friend's name in this format - User#1234
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40434101137408
+    m_Localized: Enter your name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78636467892224
+    m_Localized: Add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79445641408512
+    m_Localized: Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79548322164736
+    m_Localized: Friends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79640315834368
+    m_Localized: Friends requests
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80588283064320
+    m_Localized: Blocked players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80721229918208
+    m_Localized: Add friend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81140270247936
+    m_Localized: Avatars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106781078204416
+    m_Localized: Set Avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106992307548160
+    m_Localized: Delete Avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107557812973568
+    m_Localized: Unblock Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107814911225856
+    m_Localized: Accept Request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107948529168384
+    m_Localized: Decline Request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108198757150720
+    m_Localized: Block Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170943258669056
+    m_Localized: Remove Friend
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

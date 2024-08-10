@@ -1,0 +1,4 @@
+public enum AudioClipType
+{
+    ButtonClicked
+}

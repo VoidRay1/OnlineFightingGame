@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Settings Menu Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 95b180a61d21bac47b8c365d48a3bf16, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 28332273664
+    m_Localized: Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218460073984
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 861342019584
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 940102660096
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1114673786880
+    m_Localized: Full screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1348137136128
+    m_Localized: Vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1585476022272
+    m_Localized: Framerate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2190789586944
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5549886025728
+    m_Localized: Apply settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6213076791296
+    m_Localized: "Discard \u0441hanges"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376718904537088
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376788857139200
+    m_Localized: Discard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376914371686400
+    m_Localized: ' Save settings changes?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704998681620480
+    m_Localized: Quality preset
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
